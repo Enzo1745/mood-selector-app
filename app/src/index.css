@@ -9,4 +9,20 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
     border: 2px solid hsla(0, 0%, 50%, 0.2);
+    color: hsl(0, 0%, 15%);
+}
+
+.mood-message{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.select-button{
+    font-size: 1em;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: hsla(200, 90%, 50%, 0.6);
+    border-radius: 5px;
 }
