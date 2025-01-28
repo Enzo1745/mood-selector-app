@@ -23,6 +23,20 @@
     height: 50px;
     width: 150px;
     border: none;
-    background-color: hsla(200, 90%, 50%, 0.6);
+    background-color: hsla(0, 0%, 95%, 0.9);
     border-radius: 5px;
+    transition: .2s;
+}
+.select-button:hover{
+    background-color: hsla(0, 0%, 90%, 0.9);
+}
+
+#positive-emotion{
+    background-color: hsla(115, 100%, 50%, 0.6);
+}
+#negative-emotion{
+    background-color: hsla(0, 100%, 50%, 0.6);
+}
+#positive-emotion label, #negative-emotion label{
+    display: none;
 }
